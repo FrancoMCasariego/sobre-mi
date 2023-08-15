@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora</h1>
+        <input type="number" id="operand1" placeholder="Operando 1">
+        <select id="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="number" id="operand2" placeholder="Operando 2">
+        <button id="calculateBtn">Calcular</button>
+        <div id="result"></div>
+        <button id="clearBtn">Borrar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
